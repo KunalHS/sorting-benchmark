@@ -1,0 +1,17 @@
+# Use an OpenJDK image
+FROM openjdk:latest
+
+# Set the working directory
+WORKDIR /app
+
+# Copy all files from the current directory to the container
+COPY . .
+
+# Ignore the out directory
+RUN rm -rf out
+
+# Make the build_and_run.sh script executable
+RUN chmod +x build_and_run.sh
+
+# Build and run the application
+CMD ["./build_and_run.sh"]
