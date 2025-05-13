@@ -71,3 +71,9 @@ To ensure reliable benchmarking results, multiple warm-up strategies were employ
     - This can be concluded from the difference of results from Experiment-3 and Experiment-4, where essentially the point where the warm-up was done changes.
 
 ---
+
+## Quantitative Results
+
+- [Google Sheets](https://docs.google.com/spreadsheets/d/1VmpvKN_oIM7SJOgQA81mz0F-zYDrC1Ysi5jLdbkQwRw/edit?usp=sharing)
+
+---
